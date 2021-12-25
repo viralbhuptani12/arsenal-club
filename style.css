@@ -1,0 +1,121 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.header{
+   background-color: #1f2937; 
+   display:flex;
+   flex-direction:column;
+}
+.hero{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:50px;
+    padding:15px;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    margin:0;
+    padding:0;
+    gap:20px;
+}
+a,.sub-text{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom:10px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.facts{
+    display:flex;
+    justify-content:space-evenly;
+    padding:15px;
+    margin-left:170px;
+    margin-bottom:50px;
+}
+.text{
+    font-size:48px;
+    color: #f9faf8;
+    font-weight:800;
+    margin-bottom:10px;
+}
+.button{
+    background-color:#3882f6;
+    color: #f9faf8;
+    border-radius: 15px;
+    width:100px;
+    height:40px;
+    border-color: white;
+}
+.image{
+    min-width: 60%;
+    margin-left:15px;
+}
+.random{
+    text-align: center;
+    margin:30px 0px;
+    font-size:36px;
+    font-weight: 800;
+    color:#1f2937;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    margin-bottom:50px;
+}
+.sec-2{
+    background-color: #E5E7EB;
+    padding:15px;
+    margin-bottom:50px;
+}
+
+blockquote{
+    text-align: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-style: italic;
+}
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+figcaption{
+    text-align:right;
+}
+
+.sec-3{
+    display:flex;
+    justify-content: space-around;
+    background-color:#3882f6;
+    padding:30px;
+    margin: 50px 150px;
+    border-radius: 15px;
+}
+
+.action{
+    font-weight: 800;
+    font-size: 24px;
+    color: #f9faf8;
+    }
+
+.signup{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding:15px;
+    color:white;
+}
